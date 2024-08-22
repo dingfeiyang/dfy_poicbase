@@ -1,0 +1,143 @@
+{
+  "groups": [
+    {
+      "name": "picobase",
+      "type": "com.picobase.config.PbConfig",
+      "sourceType": "com.picobase.spring.PbBeanRegister",
+      "sourceMethod": "getPbConfig()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "picobase.active-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.auto-renew",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.basic",
+      "type": "java.lang.String",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.cookie",
+      "type": "com.picobase.config.PbCookieConfig",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.curr-domain",
+      "type": "java.lang.String",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.data-refresh-period",
+      "type": "java.lang.Integer",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.dynamic-active-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-color-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-concurrent",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-print",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-read-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-read-cookie",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-read-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-share",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.is-write-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.jwt-secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.log-level-int",
+      "type": "java.lang.Integer",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.max-login-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.max-try-times",
+      "type": "java.lang.Integer",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.s3",
+      "type": "com.picobase.config.S3Config",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.token-name",
+      "type": "java.lang.String",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.token-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.token-session-check-login",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.picobase.config.PbConfig"
+    },
+    {
+      "name": "picobase.token-style",
+      "type": "java.lang.String",
+      "sourceType": "com.picobase.config.PbConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,15 @@
+com\picobase\core\persistence\TestCollection.class
+com\picobase\springboot\event\MyController2.class
+com\picobase\springboot\PbContextForSpringTest.class
+com\picobase\springboot\BindRequestDto.class
+com\picobase\console\EventHandlerForAdminControllerTest.class
+com\picobase\StartUpApplication.class
+com\picobase\springboot\event\PbEventTest.class
+com\picobase\core\scheduler\TestScheduler.class
+com\picobase\console\AdminControllerTest.class
+com\picobase\model\RecordTest.class
+com\picobase\springboot\event\MyController1.class
+com\picobase\console\EventHandlerForAdminControllerTest2.class
+com\picobase\springboot\TestController.class
+com\picobase\core\logic\FieldsFilterProcessorTest.class
+com\picobase\springboot\event\MyNoticeEvent.class

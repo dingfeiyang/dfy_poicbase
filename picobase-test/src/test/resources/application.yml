@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Bangbangdechelianwang
+    ##url: jdbc:mysql://1.117.39.176:3306/pb_console
+    url: jdbc:mysql://1.117.39.176:3306/zzzz
+
+
+# 端口
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+
+
+# PicoBase 配置
+picobase:
+  # 是否打印日志
+  isLog: true
+
+  # 是否打印 banner
+  isPrint: true
+
+  # jwt 秘钥
+  jwtSecretKey: X8yXwWJE1k5zN7h+fP8g1U8QmW6i8LrQ4+QJyB2p6EU=
+
+
+
+
+pb-console:
+  auth: true
+  identity: admin@admin.com
+  password: admin@admin.com
+  # dev 模式，打印sql日志，存储http执行信息到数据库中， 开启后会影响执行性能
+  isDev: true
+
+
+
+
+
